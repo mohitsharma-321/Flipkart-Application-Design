@@ -14,7 +14,7 @@ public class Item {
 
     public Item(String brand,String category,int price) {
         if(brand == null || category == null || price < 0)
-                throw new IllegalAccessException("Invalid item data");
+            System.out.println("Invalid Data Entered ....");
 
         this.brand = brand;
         this.category = category;
@@ -24,7 +24,7 @@ public class Item {
 
     public void addQuantity(int quantity) {
         if(quantity <=0)
-            throw new IllegalAccessException("Quantity should be positive ...");
+            System.out.println("Quantity Should be positive ....");
         this.quantity += quantity;
     }
 
