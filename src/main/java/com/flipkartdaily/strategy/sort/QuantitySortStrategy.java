@@ -1,0 +1,12 @@
+package com.flipkartdaily.strategy.sort;
+
+import com.flipkartdaily.model.Item;
+
+import java.util.Comparator;
+
+public class QuantitySortStrategy implements SortStrategy{
+    @Override
+    public Comparator<Item> getComparator() {
+        return null;
+    }
+}
